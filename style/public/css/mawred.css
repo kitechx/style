@@ -1,0 +1,222 @@
+
+@font-face {
+  font-family: 'TheSansPlain';
+  src: url('/assets/style/fonts/TheSans-Plain.eot');
+  src: url('/assets/style/fonts/TheSans-Plain.eot?#iefix') format('embedded-opentype'),
+       url('/assets/style/fonts/TheSans-Plain.woff2') format('woff2'),
+       url('/assets/style/fonts/TheSans-Plain.woff') format('woff'),
+       url('/assets/style/fonts/TheSans-Plain.ttf') format('truetype'),
+       url('/assets/style/fonts/TheSans-Plain.svg#TheSans-Plain') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.case-label {
+    font-family: 'TheSansPlain';
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: 'TheSansPlain', sans-serif !important;
+}
+
+#page-desktop {
+
+    background-color: #fafbfc !important;
+}
+
+@media (min-width: 1200px)
+.container {
+    width: 100px;
+}
+
+.navbar-default {
+   //  background-color: #4889bf !important; 
+        background: linear-gradient(to top left,#9bc8ec,#264d88) ;
+
+    }
+
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+    color: #ffffff !important;
+   
+}
+
+.page-head {
+
+    background-color: #f7fafc !important;
+}
+
+
+.case-label {
+    font-size: 13px !important;
+
+    }
+
+    .app-icon .inner, .app-icon i {
+    font-size: 50px !important;
+    min-width: 50px !important;
+    color: #fff !important;
+    padding: 3px !important;
+
+}
+
+.case-wrapper {
+
+    margin-bottom: 12px !important;
+}
+
+
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #4c94d0 !important;
+}
+
+
+
+.page-title .title-text {
+
+    color: #4889bf !important;
+    font-size: 25px !important;
+}
+
+.module-section .module-section-link {
+    font-size: 100% !important;
+}
+
+
+
+.layout-side-section .module-sidebar-nav {
+    font-size: 15px !important;
+}
+
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #70ad05 !important;
+    border-color: #70ad05 !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #8fcc56 !important;
+    border-color: #8fcc56 !important;
+}
+
+
+.btn-secondary{
+    color: #fff !important;
+    background-color: #0c96b3 !important;
+    border-color: #0c96b3 !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary.focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
+    color: #fff !important;
+    background-color: #0da7c7 !important;
+    border-color: #0da7c7 !important;
+}
+
+
+.btn-modal-close{
+        color: #fff!important; 
+
+   background-color: #ff5454 !important;
+    border-color: #ff5454 !important;
+
+}
+
+.btn-modal-close:hover, .btn-modal-close:focus, .btn-modal-close.focus, .btn-modal-close:active, .btn-modal-close.active, .open > .dropdown-toggle.btn-modal-close {
+   color: #fff !important;
+    background-color: #f56f6f !important;
+    border-color: #f56f6f !important;
+}
+
+
+
+
+
+
+.grid-add-row {
+    background-color: #83ce00 !important;
+    border-color: #83ce00 !important;
+        color: #fff !important;
+
+
+    }
+
+.grid-add-row:hover, .grid-add-row:focus, .grid-add-row.focus, .grid-add-row:active, .grid-add-row.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #9ef30bd6 !important;
+    border-color: #9ef30bd6 !important;
+        color: #fff !important;
+
+}
+
+
+.h4 {
+    font-size: 17px !important;
+   // background-color: #69aae0 !important;
+   background: linear-gradient(to right, #a4d6ff, #0678b9e0) !important;
+
+    color: #fff !important;
+    padding: 6px !important;
+}
+
+.modal-header .indicator {
+   float: right !important;
+}
+.modal-header {
+color: #0465d0de !important;
+}
+.dropdown-help{
+
+    display:none !important ;
+}
+
+.erpnext-icon {
+    width: 60px !important;
+}
+
+.msgprint  li {
+    background: #007dff2b !important;
+}
+
+.navbar-search-icon {
+ //   left: 14px !important;
+    color: #5baeec !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+
+::placeholder{
+
+    color: #5baeec !important;
+
+}
+
+.navbar .badge {
+    float: left !important;
+    color: #5baeec !important;
+}
+
+.navbar-right:last-child {
+   // padding-left: 16% !important;
+    //    padding-right: 16% !important;
+
+    }
+
+
+    .text-primary {
+    color: #5baeec !important;
+}
+
+.centered {
+
+    width: 200px !important;
+    height: 120px !important;
+}

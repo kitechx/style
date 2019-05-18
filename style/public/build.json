@@ -1,0 +1,12 @@
+
+{
+    "css/mawred.css": [
+        "public/css/mawred.css",
+         "public/js/conf.js"
+
+    ],
+    "js/conf.js": [
+        "public/js/conf.js"
+    ]
+}
+
